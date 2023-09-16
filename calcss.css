@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #3f1d1d(47deg,#1e1414,#174a91);
+    margin-top: 206px;
+    margin-bottom: 70px;
+    background-color: #d5d8f7;
+
+}
+.Calculator{
+    border: 2px solid #717377;
+    padding: 20px;
+    border-radius: 10px;
+    background: #334c6d;
+    box-shadow: 5px 8px 15px rgba(8, 21, 49, 0.5);
+
+
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 5px;
+    background: rgb(233, 238, 238);
+    box-shadow: 5px 8px 20px rgba(84,84,84,0.1);
+    border-radius:10%;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: rgb(97, 4, 29);
+}
+input ::placeholder{
+    color: rgb(18, 42, 42);
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius:20%;
+    background: #00020c;
+    color: rgb(244, 235, 235);
+    font-size: 30px;
+    box-shadow: -20px -20px 30px #020919(255,255,255,0.1);
+    cursor: pointer;
+}
+.eBtn
+{
+    background-color:black;
+}
+.operator{
+    color:  rgb(232, 242, 179);
+    font-size: 25px;
+}
